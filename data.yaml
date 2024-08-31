@@ -1,0 +1,12 @@
+train: /content/drive/MyDrive/Colab Notebooks/Object Detection/Friends Detection.v1i.yolov8/train/images
+val: /content/drive/MyDrive/Colab Notebooks/Object Detection/Friends Detection.v1i.yolov8/valid/images
+test: /content/drive/MyDrive/Colab Notebooks/Object Detection/Friends Detection.v1i.yolov8/test/images
+nc: 5
+names: ['Injamuil', 'Injamul', 'Riyad', 'Saiful', 'Shakil']
+
+roboflow:
+  workspace: university-friend-detection
+  project: friends-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-friend-detection/friends-detection/dataset/1
